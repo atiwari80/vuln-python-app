@@ -1,2 +1,2 @@
-INSERT INTO students (name) VALUES (:name)\n         q = \
-         "INSERT INTO students (name) VALUES (:name)\n"
+INSERT INTO students (name) VALUES (:name)
+q = session.execute("INSERT INTO students (name) VALUES (:name)", {\"name\": name})
