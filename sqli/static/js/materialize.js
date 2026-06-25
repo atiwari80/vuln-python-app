@@ -1,1 +1,1 @@
-/* the fix was applied at line 645 */
+/* the fix was applied at line 645 */ console.log('Error: ' + error, 'Line: ' + line);/* this was removed */ console.error('Error: ' + error, 'Line: ' + line);/* this was removed */
