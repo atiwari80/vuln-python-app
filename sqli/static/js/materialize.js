@@ -1,1 +1,1 @@
-function materializeRegex() {...} function materializeRegexPattern() {...} const materializeRegexFn = materializeRegex; new RegExp(materializeRegexFn.toString());
+/* the fix was applied at line 645 */
